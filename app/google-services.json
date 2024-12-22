@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712151796328",
+    "project_id": "datastudent-94812",
+    "storage_bucket": "datastudent-94812.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712151796328:android:d33d4b09ce00ec994849dd",
+        "android_client_info": {
+          "package_name": "com.example.enrollmentstudents"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbxOaZVO1YRb-qexs5ch0MAQ1IthEdJp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

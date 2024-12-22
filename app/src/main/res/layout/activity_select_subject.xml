@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enrollmentstudents.SelectSubjectActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Select your Subjects"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cbSubject1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Writing Academic (4 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Survival Life (6 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network Security (8 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Math (6 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Survival English (5 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numerical Method (4 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OOVP (4 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discrete Mathematics (4 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Religion (4 Credits)" />
+
+            <CheckBox
+                android:id="@+id/cbSubject11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesian Language (4 Credits)" />
+
+            <Button
+                android:id="@+id/btnSubmitSubjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/btnSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Summary"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
